@@ -1,45 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+	<title>Frontend Mentor | Four card feature section</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+	<style>
+		.attribution {
+			font-size: 11px;
+			text-align: center;
+		}
+
+		.attribution a {
+			color: hsl(228, 45%, 44%);
+		}
+	</style>
 </head>
+
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+	<section class="heading">
+		<center>
+			<h1 class="gray-text font-w-200">
+				Reliable, efficient delivery
+			</h1>
+			<h1>
+				<b>
+					Powered by Technology
+				</b>
+			</h1>
+			<p class="gray-text">
+				Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is
+				successful
+			</p>
+		</center>
+	</section>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+	<section class="cards">
+		<article class="cards__inner border-cyan supervisor card-push">
+			<header>
+				<h3 class="title">Supervisor</h3>
+			</header>
+			<summary>
+				Monitors activity to identify project roadblocks
+			</summary>
+			<figure>
+				<img class="icon" src="./images/icon-supervisor.svg" alt="Supervisor">
+			</figure>
+		</article>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+		<article class="cards__inner border-red team-builder">
+			<header>
+				<h3 class="title">Team Builder</h3>
+			</header>
+			<summary>
+				Scans our talent network to create the optimal team for your project
+			</summary>
+			<figure>
+				<img class="icon" src="./images/icon-team-builder.svg" alt="Team Builder">
+			</figure>
+		</article>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+		<article class="cards__inner border-blue calculator card-push">
+			<header>
+				<h3 class="title">Calculator</h3>
+			</header>
+			<summary>
+				Uses data from past projects to provide better delivery estimates
+			</summary>
+			<figure>
+				<img class="icon" src="./images/icon-calculator.svg" alt="Calculator">
+			</figure>
+		</article>
+		
+		<article class="cards__inner border-orange karma">
+			<header>
+				<h3 class="title">Karma</h3>
+			</header>
+			<summary>
+				Regularly evaluates our talent to ensure quality
+			</summary>
+			<figure>
+				<img class="icon" src="./images/icon-karma.svg" alt="Karma">
+			</figure>
+		</article>
 
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+	</section>
+
+
+
+
+	<footer>
+		<p class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+			Coded by <a href="#">Your Name Here</a>.
+		</p>
+	</footer>
 </body>
+
 </html>

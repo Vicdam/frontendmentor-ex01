@@ -44,9 +44,11 @@ section {
 }
 
 .heading {
+	text-align: center;
+	
 	p {
-		max-width: 500px;
 		margin: 0 auto;
+		max-width: 500px;
 	}
 
 	@media only screen and (min-width: $tablet) {
